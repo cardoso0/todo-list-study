@@ -1,0 +1,80 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  color: black;
+  background-color: rgb(248, 81, 81);
+}
+
+main {
+  padding: 1rem;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #fff;
+  text-align: center;
+}
+
+form {
+  text-align: center;
+}
+
+form button {
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+input {
+  border-radius: 5px;
+  border: none;
+}
+input::placeholder {
+  padding-left: 3px;
+}
+
+#tasks {
+  padding: 0;
+  /* margin: 0; */
+}
+
+.taskContainer {
+  list-style: none;
+  background-color: #fff;
+  /* width: 270px; */
+  display: flex;
+  justify-content: space-between;
+  margin-right: 50px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  padding-left: 5px;
+}
+
+.taskContainer button {
+  margin-left: 200px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.off {
+  display: none;
+}
+
+.error {
+  max-width: 160px;
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  text-align: center;
+  margin: 15px auto 0px;
+}
+
+.finalizado {
+  font-style: italic;
+  color: rgb(177, 177, 177);
+}
